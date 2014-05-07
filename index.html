@@ -1,0 +1,111 @@
+<!--
+Name:     		Geoffrey Personal Site Index HTML
+Description:    2 level adaptive / full and @450px
+Author:         Geoffrey W. Byers
+-->
+
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<link type="text/css" rel="stylesheet" href="assets/stylesheet.css"/>
+		<!--<link rel="icon" type="image/png" href="#">-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js" type="text/javascript"></script>
+		<script src="jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
+		<script src="jquery.scrollTo-1.4.3.1-min.js" type="text/javascript"></script> 
+		<title>Geoffrey Byers</title>
+	</head>
+	<body>
+		<div class='wrapper'>
+			<div id="menu">
+				<div id="name">
+					<h1>
+					</h1>
+				</div>
+				<div id="nav">
+					<p><a href="blog">Blog</a></p>
+					<p><a href="#chatjs">Contact</a></p>
+				</div>
+			</div>
+			<div id="welcome">
+				<div id="welcome_content">
+					<h1>Howdy!</h1>
+					<h2>My name is Geoffrey Warren Byers.  But you can call me Geoffrey.</h2>
+					<h2>I'm a thinker and a doer.  A designer, builder, hacker, and general wearer of many hats.
+					<h3>I can name drop if you want.  I've helped launch astronauts into space with <a href="#nasajs">NASA</a>, save lives with <a href="#siemensjs">Siemens</a>, and I'm changing the world with my new endeavour, <a href="#greatjobjs">Great Job</a>.  I've also been a featured speaker at multiple events including Siemens UX Day, Startup Leadership Program, and the Innovation Greenhouse on top of being an IDEA Awards finalist.  Enough about me, how are you?</h3>
+				</div>
+			</div>
+			<a name="nasajs"></a>
+			<div id="nasa"><!--Passport Phone-->
+				<div id="nasa_content">
+					<h2 class="content_h2">Space Shuttle Program | NASA</h2>
+					<img class="main_img" src="assets/images/rocket_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="NASA"></a>
+				</div>
+			</div>
+			<a name="siemensjs"></a>
+			<div id="PLM"><!--Siemens PLM NX-->
+				<div id="PLM_content">
+					<h2 class="content_h2">NX Automation | Siemens</h2>
+					<img class="main_img" src="assets/images/gear_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="SiemensNX"></a>
+				</div>
+			</div>
+			<div id="HCX"><!--Siemens HCX-->
+				<div id="HCX_content">
+					<h2 class="content_h2">Healthcare | Siemens</h2>
+					<img class="main_img" src="assets/images/heart_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="SiemensHealthcare"></a>
+				</div>
+			</div>
+			<div id="BT"><!--Siemens Desigo Project-->
+				<div id="BT_content">
+					<h2 class="content_h2">Harmonization | Siemens</h2>
+					<img class="main_img" src="assets/images/thermometer_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="SiemensHarmonization"></a>
+				</div>
+			</div>
+			<div id="MNSNG"><!--Siemens MNS-->
+				<div id="MNSNG_content">
+					<h2 class="content_h2">Mass Notifications | Siemens</h2>
+					<img class="main_img" src="assets/images/gms_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="SiemensMassNotifications"></a>
+				</div>
+			</div>
+			<a name="greatjobjs"></a>
+			<div id="passportphone"><!--Passport Phone-->
+				<div id="passportphone_content">
+					<h2 class="content_h2">Passport Phone | Great Job</h2>
+					<img class="main_img" src="assets/images/passportphone_icon.png">
+					<p><a class="btn" href="#">View the case study</a></p>
+					<a class="btntouch" href="PassportPhone∫"></a>
+				</div>
+			</div>
+			<a name="chatjs"></a>
+			<div id="chat">
+				<div id="chat_content">
+					<h1>Contact me and let's chat!</h1>
+					<h2>I enjoy hearing about new and exciting projects of all kinds.</h2>
+					<h3>hello@geoffreybyers.com</h3>
+					<h3><a href="http://www.linkedin.com/in/geoffreybyers/" target="_blank">Linkedin</a></h3>
+				</div>
+			</div>
+		</div>
+		<div class="push"></div>
+		<div class='footer'>
+			<p>Handrolled by Geoffrey W. Byers<p>
+		</div>
+		<!--Scroll script-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+   			$('#welcome_content').localScroll({duration:800});
+   			$('#nav').localScroll({duration:800});
+			});
+		</script>
+	</body>
+</html>
