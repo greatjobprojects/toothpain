@@ -34,17 +34,31 @@ Author:         Geoffrey Warren Byers
       <script src="js/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar-nav">
     <!--navigation-->
     <div class="container">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li><a href="http://geoffreybyers.github.io/blog">Blog</a></li>
-                    <li><a href="http://geoffreybyers.github.io">Home</a></li>
+                    <li><a href="#NASA">NASA</a></li>
+                    <li><a href="#PLM">Siemens</a></li>
                 </ul>
             </div>
         </nav>
+    </div>
+        <!--main-->
+    <div id="HCX">
+        <a name="HCX"></a>
+        <div class="container">
+            <div id="HCX-content">
+                <h2 class="content-h2">ToothpainRX</h2>
+                <img class="main-img" src="assets/images/tooth_icon.png">
+                <h2 class="content-h2">Get relief now.</h2>
+                <div class="case-study-button">
+                    <a href="#" class="btn btn-case-study btn-lg">Talk to a dentist</a>
+                </div>
+            </div>
+        </div>
     </div>
     <!--welcome-->
     <div id="welcome">
@@ -57,19 +71,7 @@ Author:         Geoffrey Warren Byers
             </div>
         </div>
     </div>
-    <!--nasa-->
-    <div id="NASA">
-        <a name="NASA"></a>
-        <div class="container">
-            <div id="NASA-content">
-                <h2 class="content-h2">Space Shuttle Program | NASA</h2>
-                <img class="main-img" src="images/rocket_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!--Siemens PLM NX-->
     <div id="PLM">
         <a name="siemens"></a>
@@ -163,5 +165,6 @@ Author:         Geoffrey Warren Byers
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/offcanvas.js"></script>
+
   </body>
 </html>

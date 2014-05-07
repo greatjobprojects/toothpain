@@ -191,10 +191,12 @@ body {
 .case-study-button {
 	bottom: 0;
 	left: 0;
-	position: absolute;
+	position: relative;
 	right: 0;
 	margin-right: auto;
 	margin-left: auto;
+	text-align: center;
+
 }
 .btn-case-study {
 	border-radius: 4px;
