@@ -39,12 +39,12 @@ Author:         Geoffrey Warren Byers
     <div class="container-fluid">
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-            <a class="navbar-brand" href="#HCX">ToothpainRx</a>
+            <a class=" smoothScroll navbar-brand" href="#HCX">ToothpainRx</a>
         </div>
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li><a href="#BT">How does it work?</a></li>
-                    <li><a href="#MNSNG">FAQ</a></li>
+                    <li><a href="#BT" class="smoothScroll">How does it work?</a></li>
+                    <li><a href="#MNSNG" class="smoothScroll">FAQ</a></li>
                 </ul>
             </div>
         </nav>
@@ -58,7 +58,7 @@ Author:         Geoffrey Warren Byers
                 <img class="main-img" src="assets/images/tooth_icon.png">
                 <h2 class="content-h2">Get relief now.</h2>
                 <div class="case-study-button">   
-                    <a href="#chat" class="btn btn-case-study btn-lg">Talk to a dentist</a>
+                    <a href="#chat" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
                 </div>
                    
                 
@@ -72,10 +72,9 @@ Author:         Geoffrey Warren Byers
             <div id="BT-content">
                 <h2 class="content-h2">How does it work?</h2>
                 <h6>Our licensed dentists are trained in diagnosing dental problems via video conference. If appropriate, they will prescribe medication to relieve your pain. You will also be referred to a local dentist for a permanent resolution of your pain.</h6>
-                <h6>All you need is a webcam enabled device with an internet connection, your ID, and your credit card.</h6>
                   <img class="main-img" src="assets/images/conf_icon.png">
                 <div class="case-study-button">   
-                    <a href="#chat" class="btn btn-case-study btn-lg">Talk to a dentist</a>
+                    <a href="#chat" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
                 </div>
                    
                 
@@ -102,7 +101,7 @@ Author:         Geoffrey Warren Byers
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                         <h6><b>How often can I use this service? </b></h6>
-                       <h6 class="content-h6">To avoid abuse by those only seeking drugs, a patient can access this site to procure prescription pain meds only once in any 90 day period. Furthermore, only a limited supply of pain meds will be given (enough to keep a patient comfortable for 72 hours). You will be offered referrals to local dentists for a permanent solution to your pain problem. </h6> 
+                       <h6 class="content-h6">To avoid abuse by those only seeking drugs, a patient can access this site to procure prescription pain meds only once in any 90 day period. Patients will only be prescribed enough medication to keep them comfortable for 72 hours. Patients will be offered referrals to local dentists for a permanent solution to their pain problem. </h6> 
                      </div>   
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                       <h6><b>What pain medications can I get?</b></h6>
@@ -119,44 +118,54 @@ Author:         Geoffrey Warren Byers
         <div class="container">
             <div id="chat-content">
                 <h2 class="content-h2">Talk to a dentist</h2>
-                
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <div class="input-group input-group-lg">
-                                <span class="input-group-addon">First Name</span>
-                                <input type="text" class="form-control" placeholder="John">
-                            </div>
-                        </div>
+                <h6>All you need is a webcam enabled device with an internet connection, your ID, and your credit card.</h6>
+                 <div class="col-xs-12 col-sm-12 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3">
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon">First Name</span>
+                        <input type="text" class="form-control" placeholder="John">
                     </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <div class="input-group input-group-lg">
-                                <span class="input-group-addon">Last Name</span>
-                                <input type="text" class="form-control" placeholder="Doe">
-                            </div>
-                        </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon">Last Name</span>
+                        <input type="text" class="form-control" placeholder="Doe">
                     </div>
-                    <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
-                            <div class="input-group input-group-lg">
-                                <span class="input-group-addon">e-mail</span>
-                                <input type="text" class="form-control" placeholder="john.doe@email.com">
-                            </div>
-                        </div>
+                    <div class="input-group input-group-lg">
+                        <span class="input-group-addon">e-mail</span>
+                        <input type="text" class="form-control" placeholder="john.doe@email.com">
                     </div>
-                
+                    <div class="case-study-button">   
+                        <a href="#chat" class="btn btn-case-study btn-lg" data-toggle="modal" data-target="#sorry">Talk to a dentist</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <!--footer-->
-    <div id="footer">
+   <div id="footer">
         <div class="container">
-            <a href="https://www.linkedin.com/in/geoffreybyers" target="_blank"><i class="fa fa-linkedin fa-2x fa-footer"></i></a>
-            <a href="http://www.twitter.com/geoffreybyers" target="_blank"><i class="fa fa-twitter fa-2x fa-footer"></i></a>
-            <!--<a href="http://www.instagram.com/geoffreybyers"><i class="fa fa-instagram fa-2x fa-footer"></i></a>-->
-            <a href="https://github.com/geoffreybyers" target="_blank"><i class="fa fa-github fa-2x fa-footer"></i></a>
+           <h6>Designed with care by <a href="http://www.greatjob.is">Great Job.</a></h6> 
+           <h6>Cavity by Jaime Carrion from The Noun Project</h6> 
+           <h6>Video Chat by Martha Ormiston from The Noun Project</h6>
         </div>
     </div>
+
+    <!-- Modal -->
+<div class="modal fade" id="sorry" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Our apologies</h4>
+      </div>
+      <div class="modal-body">
+        There are currently no dentists available to assist you.     
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
     <!-- Load JS here for greater good =============================-->
     <script src="js/jquery-1.8.3.min.js"></script>
     <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
@@ -169,6 +178,7 @@ Author:         Geoffrey Warren Byers
     <script src="js/jquery.tagsinput.js"></script>
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/offcanvas.js"></script>
+    <script src="js/smoothscroll.js"></script>  
 
   </body>
 </html>
