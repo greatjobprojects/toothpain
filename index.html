@@ -43,8 +43,8 @@ Author:         Geoffrey Warren Byers
         </div>
             <div class="container">
                 <ul class="nav navbar-nav">
-                    <li><a href="#BT" class="smoothScroll">How does it work?</a></li>
-                    <li><a href="#MNSNG" class="smoothScroll">FAQ</a></li>
+                    <li><a href="#BT" onClick="_gaq.push(['_trackEvent', 'How', 'Navbar']);"class="smoothScroll">How does it work?</a></li>
+                    <li><a href="#MNSNG" onClick="_gaq.push(['_trackEvent', 'FAQ', 'Navbar']);" class="smoothScroll">FAQ</a></li>
                 </ul>
             </div>
         </nav>
@@ -58,7 +58,7 @@ Author:         Geoffrey Warren Byers
                 <img class="main-img" src="assets/images/tooth_icon.png">
                 <h2 class="content-h2">Get relief now.</h2>
                 <div class="case-study-button">   
-                    <a href="#chat" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
+                    <a href="#chat" onClick="_gaq.push(['_trackEvent', 'Talk', 'Section1']);" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
                 </div>
                    
                 
@@ -74,7 +74,7 @@ Author:         Geoffrey Warren Byers
                 <h6>Our licensed dentists are trained in diagnosing dental problems via video conference. If appropriate, they will prescribe medication to relieve your pain. You will also be referred to a local dentist for a permanent resolution of your pain.</h6>
                   <img class="main-img" src="assets/images/conf_icon.png">
                 <div class="case-study-button">   
-                    <a href="#chat" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
+                    <a href="#chat" onClick="_gaq.push(['_trackEvent', 'Talk', 'Section2']);" class="smoothScroll btn btn-case-study btn-lg">Talk to a dentist</a>
                 </div>
                    
                 
@@ -133,7 +133,7 @@ Author:         Geoffrey Warren Byers
                         <input type="text" class="form-control" placeholder="john.doe@email.com">
                     </div>
                     <div class="case-study-button">   
-                        <a href="#chat" class="btn btn-case-study btn-lg" data-toggle="modal" data-target="#sorry">Talk to a dentist</a>
+                        <a href="#chat" onClick="_gaq.push(['_trackEvent', 'Modal', 'Open']);" class="btn btn-case-study btn-lg" data-toggle="modal" data-target="#sorry">Talk to a dentist</a>
                     </div>
                 </div>
             </div>
@@ -153,18 +153,21 @@ Author:         Geoffrey Warren Byers
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <button type="button" onClick="_gaq.push(['_trackEvent', 'Modal', 'Close']);" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         <h4 class="modal-title" id="myModalLabel">Our apologies</h4>
       </div>
       <div class="modal-body">
         There are currently no dentists available to assist you.     
     </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" onClick="_gaq.push(['_trackEvent', 'Modal', 'Close']);" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
+
+
+
 
     <!-- Load JS here for greater good =============================-->
     <script src="js/jquery-1.8.3.min.js"></script>
@@ -179,6 +182,7 @@ Author:         Geoffrey Warren Byers
     <script src="js/jquery.placeholder.js"></script>
     <script src="js/offcanvas.js"></script>
     <script src="js/smoothscroll.js"></script>  
+    <script src="js/googleanalytics.js"></script> 
 
   </body>
 </html>
