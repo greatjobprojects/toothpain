@@ -77,6 +77,14 @@ h4 {
 	margin: 0;
 	padding: 0;
 }
+h6 {
+	font-family: Roboto;
+	font-weight: 100;
+}
+.content-h6 {
+	text-align: left;
+	font-size: 1.00em;
+}
 p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.125em;
@@ -304,7 +312,7 @@ a:hover {
 	background: #222222;
 }
 /*responsive section*/
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 	h1 {
 		font-size: 3em;
 	}
@@ -325,6 +333,14 @@ a:hover {
 	}
 	a {
 		font-size: 1em;
+	}
+	h6 {
+	font-family: Roboto;
+	font-weight: 100;
+	}
+	.content-h6 {
+		text-align: left;
+		font-size: .75em;
 	}
 	#welcome {
 		margin: 0;
@@ -356,6 +372,14 @@ a:hover {
 	.content_h2 {
 		display:none;
 	}
+	#MNSNG {
+	margin: 0;
+    display: block;
+    height: 800px;
+    width: 100%;
+    background: #B4C0C8;
+    position: relative;
+}
 	#NASA_content > .main_img {
 		height: 40%;
 		margin-left: auto; 
