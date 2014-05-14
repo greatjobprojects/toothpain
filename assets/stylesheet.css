@@ -8,6 +8,12 @@ Author:         Geoffrey W. Byers
 /*@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600);*/
 @import url(http://fonts.googleapis.com/css?family=Roboto:900,700,500,400,300,300italic,100);
 
+@media (max-width: 400px) {
+@viewport {
+  width: device-width;
+}
+}
+
 
 * {
 	margin: 0;
@@ -209,7 +215,7 @@ a:hover {
 #MNSNG {
 	margin: 0;
     display: block;
-    height: 800px;
+    height: 200px;
     width: 100%;
     background: #B4C0C8;
     position: relative;
