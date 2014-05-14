@@ -79,7 +79,7 @@ h4 {
 }
 h6 {
 	font-family: Roboto;
-	font-weight: 100;
+	font-weight: 200;
 }
 .content-h6 {
 	text-align: left;
@@ -336,7 +336,7 @@ a:hover {
 	}
 	h6 {
 	font-family: Roboto;
-	font-weight: 100;
+	font-weight: 200;
 	}
 	.content-h6 {
 		text-align: left;
